@@ -1,8 +1,8 @@
-class CreateBeers < ActiveRecord::Migration
+class CreateBeers < ActiveRecord::Migration[4.2]
   def change
-  create_table :beers do |t|
-    t.integer :beer_id
-    t.integer :person_id
+    create_table :beers do |t|
+      t.integer :person_id
+      t.integer :brewery_id
     end
   end
 end
