@@ -3,3 +3,9 @@ breweries_list = ["Blue Point Brewery", "Samuel Adams Brewery", "Brooklyn Brewer
 breweries_list.each do |new_brewery|
   Brewery.create(name: new_brewery)
 end
+
+people_list = ["Tom","Dick","Harry", "John", "York", "Paul", "Jax", "Ashe", "Sona", "Lucian", "Katarina", "Feeder", "Noobert"]
+
+people_list.each do |new_person|
+  Person.create(name: new_person)
+end
