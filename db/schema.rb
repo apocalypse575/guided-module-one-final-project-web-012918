@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "beers", force: :cascade do |t|
-    t.integer "beer_id"
     t.integer "person_id"
+    t.integer "brewery_id"
   end
 
   create_table "breweries", force: :cascade do |t|
