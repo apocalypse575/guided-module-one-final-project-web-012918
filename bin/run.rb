@@ -1,6 +1,8 @@
+require 'artii'
 require_relative '../config/environment'
-
+require 'pry'
+require 'rest-client'
 new_cli = CommandLineInterface.new
-# new_cli.greet
-# new_cli.gets_user_input
+# binding.pry
+
 new_cli.run

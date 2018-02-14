@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "beers", force: :cascade do |t|
+    t.string "name"
     t.integer "person_id"
     t.integer "brewery_id"
   end

@@ -9,3 +9,9 @@ people_list = ["Tom","Dick","Harry", "John", "York", "Paul", "Jax", "Ashe", "Son
 people_list.each do |new_person|
   Person.create(name: new_person)
 end
+
+beers_list = ["Blue Point Beer", "Samuel Adams Beer", "Brooklyn Beer", "Long Trail Beer", "Coney Island Beer", "Montauk Beer", "Rolling Rock Beer", "Saranac Beer"]
+
+  beers_list.each do |new_beer|
+    Beer.create(name: new_beer)
+  end
